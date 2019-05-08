@@ -1,0 +1,14 @@
+wsminorsaffairs\MinorsAffairsSessionEJBLocal.class
+wsminorsaffairs\utilities\DataValidator.class
+wsminorsaffairs\MADBManagerEJBLocal.class
+wsminorsaffairs\utilities\MyKey.class
+wsminorsaffairs\MADBManagerEJBBean.class
+wsminorsaffairs\utilities\MinorsAffairsRespone.class
+wsminorsaffairs\entities\WvResponseCodeLookup.class
+wsminorsaffairs\MinorsAffairsService.class
+wsminorsaffairs\utilities\MinorsAffairsRequest.class
+wsminorsaffairs\utilities\MinorsAffairsDetails.class
+wsminorsaffairs\utilities\WSResponse.class
+wsminorsaffairs\entities\VwGafmaDetail.class
+wsminorsaffairs\utilities\ConfigData.class
+wsminorsaffairs\utilities\LoggingHandler.class

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>MinorsAffairsWSApp</groupId>
+  <artifactId>MinorsAffairsWSApp</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <description>Super POM for MinorsAffairsWSApp</description>
+  <packaging>pom</packaging>
+  <build>
+    <resources>
+      <resource>
+        <directory>src/</directory>
+        <includes>
+          <include>**</include>
+        </includes>
+      </resource>
+    </resources>
+  </build>
+  <parent>
+    <groupId>com.oracle.adf</groupId>
+    <artifactId>adf-parent</artifactId>
+    <version>12.2.1-3-0</version>
+    <relativePath></relativePath>
+  </parent>
+  <modules>
+    <module>WSMinorsAffairs</module>
+  </modules>
+  <dependencies>
+    <dependency>
+      <groupId>MinorsAffairsWSApp</groupId>
+      <artifactId>WSMinorsAffairs</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <type>jar</type>
+    </dependency>
+  </dependencies>
+  
+    <repositories>
+        <repository>
+            <id>maven.oracle.com</id>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <url>https://maven.oracle.com</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>maven.oracle.com</id>
+            <url>https://maven.oracle.com</url>
+        </pluginRepository>
+    </pluginRepositories>
+</project>

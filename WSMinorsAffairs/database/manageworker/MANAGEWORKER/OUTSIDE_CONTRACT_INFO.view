@@ -1,0 +1,805 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<view xmlns="http://xmlns.oracle.com/jdeveloper/1211/offlinedb">
+  <name>OUTSIDE_CONTRACT_INFO</name>
+  <SQLQuery>
+    <queryString>select &quot;ID&quot;,&quot;CONTRACTREFNO&quot;,&quot;WORKERVISANO&quot;,&quot;SIGNATORYQID&quot;,&quot;ESTABLISHMENTID&quot;,&quot;PROFESSIONCODE&quot;,&quot;CONTRACTDATE&quot;,&quot;CONTRACTSTARTDATE&quot;,&quot;CONTRACTENDDATE&quot;,&quot;CONTRACTDURATION&quot;,&quot;CONTRACTBASICSALARY&quot;,&quot;CONTRACTHOUSINGALLOWANCE&quot;,&quot;CONTRACTFOODALLOWANCE&quot;,&quot;CONTRACTTRANSPORTALLOWANCE&quot;,&quot;CONTRACTOTHERS&quot;,&quot;CONTRACTTOTALSALARY&quot;,&quot;TESTPERIOD&quot;,&quot;TRAVELDESTINATION_AR&quot;,&quot;TRAVELDESTINATION_EN&quot;,&quot;TRAVELPERIOD&quot;,&quot;WORKERSIGNIMAGE&quot;,&quot;SIGNATORYSIGNIMAGE&quot;,&quot;CONTRACTLOCATION&quot;,&quot;EDUCATIONLEVEL&quot;,&quot;WORKERADDRESSZONE&quot;,&quot;WORKERADDRESSSTREET&quot;,&quot;WORKERADDRESSBUILDING&quot;,&quot;WORKERADDRESSBUILDINGUNIT&quot;,&quot;WORKERADDRESSELECTRICITY&quot;,
+&quot;ANAME1&quot;,
+          &quot;ANAME2&quot;,
+          &quot;ANAME3&quot;   ,
+          &quot;ANAME4&quot;    ,
+          &quot;ANAME5&quot;  ,
+          &quot;ENAME1&quot;     ,
+          &quot;ENAME2&quot;   ,
+          &quot;ENAME3&quot;   ,
+          &quot;ENAME4&quot;   ,
+          &quot;ENAME5&quot; ,
+          &quot;GENDER&quot;,
+          &quot;NATCODE&quot;,
+          &quot;BIRTHDATE&quot;,
+          &quot;APPROVALNO&quot;,
+          &quot;VISATYPECODE&quot;,
+          &quot;VISAEXPDATE&quot;
+from OUTSIDE_CONTRACT_INFO_</queryString>
+  </SQLQuery>
+  <columns>
+    <column>
+      <name>ID</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>precision</key>
+            <value class="java.lang.String">11</value>
+          </entry>
+          <entry>
+            <key>scale</key>
+            <value class="java.lang.Long">0</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>true</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>ID</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>CONTRACTREFNO</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">20</value>
+          </entry>
+          <entry>
+            <key>unit</key>
+            <value class="java.lang.String">BYTE</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>CONTRACTREFNO</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>WORKERVISANO</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">12</value>
+          </entry>
+          <entry>
+            <key>unit</key>
+            <value class="java.lang.String">BYTE</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>true</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>WORKERVISANO</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>SIGNATORYQID</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">11</value>
+          </entry>
+          <entry>
+            <key>unit</key>
+            <value class="java.lang.String">BYTE</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>true</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>SIGNATORYQID</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>ESTABLISHMENTID</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">8</value>
+          </entry>
+          <entry>
+            <key>unit</key>
+            <value class="java.lang.String">BYTE</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>true</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>ESTABLISHMENTID</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>PROFESSIONCODE</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">3</value>
+          </entry>
+          <entry>
+            <key>unit</key>
+            <value class="java.lang.String">BYTE</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>true</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>PROFESSIONCODE</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>CONTRACTDATE</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">10</value>
+          </entry>
+          <entry>
+            <key>unit</key>
+            <value class="java.lang.String">BYTE</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>true</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>CONTRACTDATE</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>CONTRACTSTARTDATE</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">10</value>
+          </entry>
+          <entry>
+            <key>unit</key>
+            <value class="java.lang.String">BYTE</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>CONTRACTSTARTDATE</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>CONTRACTENDDATE</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>size</key>
+            <value class="java.lang.Long">10</value>
+          </entry>
+          <entry>
+            <key>unit</key>
+            <value class="java.lang.String">BYTE</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>VARCHAR2</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>CONTRACTENDDATE</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>CONTRACTDURATION</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>precision</key>
+            <value class="java.lang.String">3</value>
+          </entry>
+          <entry>
+            <key>scale</key>
+            <value class="java.lang.Long">0</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>CONTRACTDURATION</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>CONTRACTBASICSALARY</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>precision</key>
+            <value class="java.lang.String">11</value>
+          </entry>
+          <entry>
+            <key>scale</key>
+            <value class="java.lang.Long">0</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>true</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>CONTRACTBASICSALARY</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>CONTRACTHOUSINGALLOWANCE</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>precision</key>
+            <value class="java.lang.String">11</value>
+          </entry>
+          <entry>
+            <key>scale</key>
+            <value class="java.lang.Long">0</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>CONTRACTHOUSINGALLOWANCE</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>CONTRACTFOODALLOWANCE</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>precision</key>
+            <value class="java.lang.String">11</value>
+          </entry>
+          <entry>
+            <key>scale</key>
+            <value class="java.lang.Long">0</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>CONTRACTFOODALLOWANCE</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>CONTRACTTRANSPORTALLOWANCE</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>precision</key>
+            <value class="java.lang.String">11</value>
+          </entry>
+          <entry>
+            <key>scale</key>
+            <value class="java.lang.Long">0</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>CONTRACTTRANSPORTALLOWANCE</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>CONTRACTOTHERS</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>precision</key>
+            <value class="java.lang.String">11</value>
+          </entry>
+          <entry>
+            <key>scale</key>
+            <value class="java.lang.Long">0</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>CONTRACTOTHERS</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>CONTRACTTOTALSALARY</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>precision</key>
+            <value class="java.lang.String">11</value>
+          </entry>
+          <entry>
+            <key>scale</key>
+            <value class="java.lang.Long">0</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>true</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>CONTRACTTOTALSALARY</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>TESTPERIOD</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>precision</key>
+            <value class="java.lang.String">3</value>
+          </entry>
+          <entry>
+            <key>scale</key>
+            <value class="java.lang.Long">0</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>TESTPERIOD</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>TRAVELDESTINATION_AR</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>TRAVELDESTINATION_EN</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>TRAVELPERIOD</name>
+      <dataTypeUsage>
+        <attributeValues>
+          <entry>
+            <key>precision</key>
+            <value class="java.lang.String">2</value>
+          </entry>
+          <entry>
+            <key>scale</key>
+            <value class="java.lang.Long">0</value>
+          </entry>
+        </attributeValues>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>NUMBER</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>TRAVELPERIOD</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>WORKERSIGNIMAGE</name>
+      <dataTypeUsage>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>BLOB</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>WORKERSIGNIMAGE</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>SIGNATORYSIGNIMAGE</name>
+      <dataTypeUsage>
+        <dataTypeID class="oracle.javatools.db.datatypes.DataTypeID">
+          <typeName>BLOB</typeName>
+        </dataTypeID>
+      </dataTypeUsage>
+      <notNull>false</notNull>
+      <properties>
+        <entry>
+          <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+          <value class="oracle.javatools.db.ReferenceID">
+            <name>SIGNATORYSIGNIMAGE</name>
+            <parent class="oracle.javatools.db.ReferenceID">
+              <name>OUTSIDE_CONTRACT_INFO</name>
+              <identifier class="java.math.BigDecimal">64396</identifier>
+              <schemaName>MANAGEWORKER</schemaName>
+              <type>VIEW</type>
+            </parent>
+            <type>COLUMN</type>
+          </value>
+        </entry>
+      </properties>
+    </column>
+    <column>
+      <name>CONTRACTLOCATION</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>EDUCATIONLEVEL</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>WORKERADDRESSZONE</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>WORKERADDRESSSTREET</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>WORKERADDRESSBUILDING</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>WORKERADDRESSBUILDINGUNIT</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>WORKERADDRESSELECTRICITY</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>ANAME1</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>ANAME2</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>ANAME3</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>ANAME4</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>ANAME5</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>ENAME1</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>ENAME2</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>ENAME3</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>ENAME4</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>ENAME5</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>GENDER</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>NATCODE</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>BIRTHDATE</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>APPROVALNO</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>VISATYPECODE</name>
+      <notNull>false</notNull>
+    </column>
+    <column>
+      <name>VISAEXPDATE</name>
+      <notNull>false</notNull>
+    </column>
+  </columns>
+  <forceOnCreate>false</forceOnCreate>
+  <properties>
+    <entry>
+      <key>OfflineDBConstants.IMPORT_SOURCE_CONNECTION</key>
+      <value class="java.lang.String">manageworker</value>
+    </entry>
+    <entry>
+      <key>OfflineDBConstants.IMPORT_SOURCE_ID</key>
+      <value class="oracle.javatools.db.ReferenceID">
+        <name>OUTSIDE_CONTRACT_INFO</name>
+        <identifier class="java.math.BigDecimal">64396</identifier>
+        <schemaName>MANAGEWORKER</schemaName>
+        <type>VIEW</type>
+      </value>
+    </entry>
+  </properties>
+  <schema>
+    <name>MANAGEWORKER</name>
+  </schema>
+</view>
